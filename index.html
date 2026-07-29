@@ -14,65 +14,73 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f5fff7;
+background:#eefaf3;
 color:#222;
 }
 
 .container{
-max-width:900px;
+max-width:420px;
 margin:auto;
 padding:20px;
 }
 
-img{
-width:100%;
-border-radius:15px;
-margin-bottom:20px;
-box-shadow:0 5px 15px rgba(0,0,0,.15);
+.hero{
+background:linear-gradient(135deg,#0f8f4f,#2ecc71);
+padding:35px 20px;
+border-radius:20px;
+text-align:center;
+color:white;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.hero h1{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:16px;
+line-height:1.6;
 }
 
 .card{
 background:#fff;
+margin-top:20px;
 padding:20px;
-border-radius:15px;
-margin-bottom:20px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
-h1{
-color:#0d8a3c;
-font-size:32px;
-margin-bottom:15px;
-}
-
-h2{
-color:#0d8a3c;
+.card h2{
+color:#0f8f4f;
 margin-bottom:15px;
 }
 
 ul{
-padding-left:20px;
+list-style:none;
 }
 
 li{
-margin:10px 0;
+padding:10px 0;
+font-size:17px;
 }
 
-.btn{
+.button{
 display:block;
+margin-top:25px;
+background:#0f8f4f;
+color:white;
 text-align:center;
-background:#0d8a3c;
-color:#fff;
 padding:16px;
 font-size:20px;
-border-radius:12px;
 text-decoration:none;
-margin-top:20px;
+border-radius:12px;
+font-weight:bold;
 }
 
 .footer{
+margin-top:30px;
 text-align:center;
-padding:25px;
 font-size:14px;
 color:#666;
 }
@@ -84,46 +92,41 @@ color:#666;
 
 <div class="container">
 
-<img src="images/hero.jpg">
-
-<div class="card">
+<div class="hero">
 
 <h1>🎁 আপনার জন্য অপেক্ষা করছে একটি বিশেষ সুযোগ!</h1>
 
 <p>
 কয়েকটি সহজ ধাপ সম্পন্ন করে উপলব্ধ অফারটি দেখুন।
-যোগ্য ব্যবহারকারীরা অংশগ্রহণ করতে পারবেন।
 </p>
 
-<a class="btn" href="YOUR_CPA_LINK">Continue</a>
+<a class="button" href="YOUR_LINK_HERE">
+Continue
+</a>
 
 </div>
 
-<img src="images/benefits.jpg">
-
 <div class="card">
 
-<h2>কেন এই অফারটি দেখবেন?</h2>
+<h2>কেন দেখবেন?</h2>
 
 <ul>
 
-<li>✅ শুধুমাত্র Android ব্যবহারকারীদের জন্য</li>
+<li>📱 Android ব্যবহারকারীদের জন্য</li>
 
-<li>✅ দ্রুত ও সহজ প্রক্রিয়া</li>
+<li>⚡ দ্রুত ও সহজ</li>
 
-<li>✅ নিরাপদ তথ্য প্রদান</li>
+<li>🔒 নিরাপদ তথ্য প্রদান</li>
 
-<li>✅ সম্পূর্ণ অনলাইন</li>
+<li>🌐 সম্পূর্ণ অনলাইন</li>
 
 </ul>
 
 </div>
 
-<img src="images/steps.jpg">
-
 <div class="card">
 
-<h2>কীভাবে শুরু করবেন?</h2>
+<h2>শুরু করার ধাপ</h2>
 
 <ul>
 
@@ -142,13 +145,7 @@ color:#666;
 <h2>গুরুত্বপূর্ণ</h2>
 
 <p>
-
-সঠিক তথ্য প্রদান করুন।
-
-<br><br>
-
-ভুল তথ্য দিলে আবেদন গ্রহণ নাও হতে পারে।
-
+সঠিক তথ্য প্রদান করুন এবং অফারের নির্দেশনা অনুসরণ করুন।
 </p>
 
 </div>
@@ -161,7 +158,7 @@ Contact
 
 <br><br>
 
-©2026 All Rights Reserved
+© 2026
 
 </div>
 
